@@ -35,7 +35,7 @@ const callbackNewFill = (arr, valueFill, inicio = 0, fim = arr.length -1) => {
 let array = [5,8,7,4];
 newFill(array, 4, 1 , array.length -1 , callbackNewFill)
 
-//Map 
+//NewMap 
 const newMap = (arr, callback) => {
     arr = callback(arr, arr[0], 0) 
 }
